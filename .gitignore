@@ -1,0 +1,53 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+pip-freeze.txt
+pipenv-setup.lock
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+*.whl
+
+# Instance Folder (e.g., for Flask)
+instance/
+.webassets-cache
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Secrets - typically handled by .env files or other secret management
+*.env
+.env.*
+!example.env # Allow an example .env file to be committed
+
+# Logs
+logs/
+*.log
